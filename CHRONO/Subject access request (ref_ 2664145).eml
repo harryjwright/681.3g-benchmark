@@ -1,0 +1,199 @@
+Received: from LO0P265MB5382.GBRP265.PROD.OUTLOOK.COM (2603:10a6:600:286::10)
+ by CWLP265MB2036.GBRP265.PROD.OUTLOOK.COM with HTTPS; Fri, 19 Dec 2025
+ 15:08:22 +0000
+Received: from AS4P250CA0011.EURP250.PROD.OUTLOOK.COM (2603:10a6:20b:5df::13)
+ by LO0P265MB5382.GBRP265.PROD.OUTLOOK.COM (2603:10a6:600:286::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9434.9; Fri, 19 Dec
+ 2025 15:08:21 +0000
+Received: from AMS0EPF00000194.eurprd05.prod.outlook.com
+ (2603:10a6:20b:5df:cafe::d) by AS4P250CA0011.outlook.office365.com
+ (2603:10a6:20b:5df::13) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.9434.9 via Frontend Transport; Fri,
+ 19 Dec 2025 15:08:17 +0000
+Authentication-Results: spf=pass (sender IP is 54.240.6.123)
+ smtp.mailfrom=eu-west-1.amazonses.com; dkim=pass (signature was verified)
+ header.d=ntu.ac.uk;dkim=pass (signature was verified)
+ header.d=amazonses.com;dmarc=pass action=none
+ header.from=ntu.ac.uk;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of eu-west-1.amazonses.com
+ designates 54.240.6.123 as permitted sender) receiver=protection.outlook.com;
+ client-ip=54.240.6.123; helo=a6-123.smtp-out.eu-west-1.amazonses.com; pr=C
+Received: from a6-123.smtp-out.eu-west-1.amazonses.com (54.240.6.123) by
+ AMS0EPF00000194.mail.protection.outlook.com (10.167.16.214) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9434.6
+ via Frontend Transport; Fri, 19 Dec 2025 15:08:20 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=rjjnmtf7z5fzhfmfnjn667nywm7qy4d5; d=ntu.ac.uk; t=1766156900;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=iZo0Cg+Y2UV6zplQcg/w0YMHF12LPPhFCeaeZNF3H9o=;
+	b=NDu1UmwwmYh+dd1xp/oK4Y9WH0VxelIUjf4I2YHKiDI5nnFlWmg+eiCBKmzkz1Iq
+	N1YdLY6uDlCT5VJDER+W3CRBcVdtz9pROGG+UiIvsITLE1vSc7vDAX5Iimc5XB3bqe0
+	B5fQCW9j90PQqcn1nPx96051VHpbiYPgCe6eTgfSoSglW6rS8CWEGXFRRfZJ/0N+ej+
+	ffVDoIDB2L2QcVEiIXGc9uAyXu8RhYqeZD6vphYQ3OmnUy99d6fAWfvS8t1KQGkxmaH
+	cu9P1XtM2o1b1MRZ7aUqEYq7I+Ab2i3clILnjOQ+pybR/Ertx2HpQZldtmI24ubQIBR
+	rW1G7V+NqQ==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ihchhvubuqgjsxyuhssfvqohv7z3u4hn; d=amazonses.com; t=1766156900;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:Feedback-ID;
+	bh=iZo0Cg+Y2UV6zplQcg/w0YMHF12LPPhFCeaeZNF3H9o=;
+	b=aQFMKTg/pXhcOzVBjzQpqsPGU6a9+XN/S/bvfkQoh0FKhKO2dgrZxWtBpTeVs2d6
+	a/lCSmex5khAs0PJIet6juuM6pDYXg/l1zfyPs+ZKASdiSPtq68jgbr9T/4dAQ6PdUu
+	TqS2OHXODQEiMWWFi/mTcOi9EeiECLIizTIIyKyc=
+Date: Fri, 19 Dec 2025 15:08:20 +0000
+From: Nottingham Trent University <dataprotection@ntu.ac.uk>
+To: n0605150@my.ntu.ac.uk
+Message-ID: <0102019b37279756-563e160e-edd1-4bfe-a2d8-7d97fbbb9732-000000@eu-west-1.amazonses.com>
+Subject: Subject access request (ref: 2664145)
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_2270_1103564419.1766156900068"
+X-Mailer: iCasework mailer
+Feedback-ID: ::1.eu-west-1.TivmYzgvW1hWo9IWxM/FcfBaFgnUSz26raW0MwZEB2E=:AmazonSES
+X-SES-Outgoing: 2025.12.19-54.240.6.123
+Return-Path: 0102019b37279756-563e160e-edd1-4bfe-a2d8-7d97fbbb9732-000000@eu-west-1.amazonses.com
+X-MS-Exchange-Organization-ExpirationStartTime: 19 Dec 2025 15:08:20.7890
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 7d22b63e-53f2-410e-b0d2-08de3f107299
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 8acbc2c5-c8ed-42c7-8169-ba438a0dbe2f:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AMS0EPF00000194:EE_|LO0P265MB5382:EE_|CWLP265MB2036:EE_
+X-MS-Exchange-Organization-AuthSource: AMS0EPF00000194.eurprd05.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: 7d22b63e-53f2-410e-b0d2-08de3f107299
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;ARA:13230040|32142699015|8096899003;
+X-Forefront-Antispam-Report: CIP:54.240.6.123;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:a6-123.smtp-out.eu-west-1.amazonses.com;PTR:a6-123.smtp-out.eu-west-1.amazonses.com;CAT:NONE;SFS:(13230040)(32142699015)(8096899003);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 19 Dec 2025 15:08:20.7049
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 7d22b63e-53f2-410e-b0d2-08de3f107299
+X-MS-Exchange-CrossTenant-Id: 8acbc2c5-c8ed-42c7-8169-ba438a0dbe2f
+X-MS-Exchange-CrossTenant-AuthSource: AMS0EPF00000194.eurprd05.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: LO0P265MB5382
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.1834726
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.9434.000
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(4710137)(4713098)(4999163)(920097)(930201)(20251009114)(140003)(1420198);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?YzZlWExmdWRJWjBlSXpnVDJWNXhNSEtTTk1xcHN1NnVpSU9LQ2grVEd2U1RW?=
+ =?utf-8?B?b3RCNTR5TWlWZ2hmcjkxbmJIenhqQ2cwd3pwNzVraUsycGVYaWVvdHlzQVA3?=
+ =?utf-8?B?d3BZYzliVHg2SWk1OWhzRUdRSGtBRmxWbkU0NllpbG9GaFVrNmJIby8vbHZy?=
+ =?utf-8?B?VnNacFNDRXgxY0ZmTUpEbXZkOXFIL1FCUnh2c3l2RlM1K1pPbTkyMFY1b1Zj?=
+ =?utf-8?B?azNHcC9sMVA5UzErM2dSd1ZWNnpHb1NvejlRZHYxTTdhOUI3Nlo3NXZCSTR5?=
+ =?utf-8?B?ZzNFTkpHZ2h3SkxPb1BzZmVNQXdJdnpLVjZBSXhRM0swK0o1SjArMnNVWXQ4?=
+ =?utf-8?B?NUIxNTY5czl1V1pXVElnRVppbE9ocjJSQmdFc0NxdVJhMy9MdHY0VDFBUkQ1?=
+ =?utf-8?B?Q0U1N0pNaUpGK1R5TUQwK25XR1FMNkVuQytTNWxpVU5QejVCMW4zYy8zWUVv?=
+ =?utf-8?B?RVM2Nk50cWQ1UGY5UW5kVzFBWmRONHpYTnkvK3pMd1J4Vm1XQmZ6bnMxZ25l?=
+ =?utf-8?B?WitwNk9GelpPbW54cytmYjdqMldIeHhGemo2MDl4azhxVGZKSVNab25KNnZF?=
+ =?utf-8?B?aVpRQlMzNzhZT3hqdjBDL1UrSUk5ZVhwSWhkVEJLemZMWDNRSysvam1mZmt0?=
+ =?utf-8?B?YVpSOW15aEFyL2kwSTVtUUFpL0hjYUFFS1AxejBOeHN1RVlzT3BzUitJY2pX?=
+ =?utf-8?B?ZnZRMHhVQVZCS1BETHhQZ2dJM1l2Rjk4WlZnK0hKT2I5ZXEwQ3lraVdqM1Uy?=
+ =?utf-8?B?SC9LSlhQWkd1OHRqNHVFNzVJMjM2bzZpMVlJT3hIUUw3bzZTRjkrV2F0enBC?=
+ =?utf-8?B?ZzJyOG4xT2NjbTgyblVBaDBHdlJhMEVQcU1qSU9jWGZXSER0eWRXVytKUVdX?=
+ =?utf-8?B?MzNnVHhyWVB0TXBOb0g2N3BVOXNPQnVuUzF4ZEt4UnloTmI5YW02K01wM3My?=
+ =?utf-8?B?Z1p1NDJUSlRoTklTOVpibEZ3Z0hsblRISmJOOWRxWXVuK281V0RyeVZVTkNS?=
+ =?utf-8?B?b1N2ajRXZmpROEZqVWhxYjhUcDdBQ3poUFYyTVBTeVpYMVo4Rzh5a0VDSHlQ?=
+ =?utf-8?B?MzArV05sTmdoVWYzc1JpWFZNL0F2ZHMwVk02ZXdjN1hrSjZpaGNNT2w1SEdL?=
+ =?utf-8?B?STNuSGJtamhKOFFBQ1pCOHdHQjNHTXpJZFhpVnR6WjVuUkNuOXcyNTFiYkRv?=
+ =?utf-8?B?NzZheitsSHFhOVFGd0s2ZmkyR255WUIvaGFqRjBoSjVZODNreWphNTBzb0px?=
+ =?utf-8?B?TVhZZGhqYy9BSThiYlR4cVVpUGpOZXh0dnlEUFcxYjVMaVQzaTlXcERqOFhr?=
+ =?utf-8?B?bVNteDZGWEZkU3BUQUlpOTAyRHZyWWpGVzl4N05jUjZ4TTRVb3VSaHF5S2hq?=
+ =?utf-8?B?MjYzNjBjZXBtMm9YL2tTQlBPbkNKRDdtUlk2bmpBWXdobnBUUEFCWldQN0hJ?=
+ =?utf-8?B?SWFnOVI2NWREYTlNc0h5RWo0K052N0lsekNBbXRlOUFvN0wyYmF4VWVudVpT?=
+ =?utf-8?B?cU9meUtQVkdYVUMwUkc2VDZuNTRFYUYvZWVKdFZKbVZoRDZORVIyOElrQ3I5?=
+ =?utf-8?B?T1FwV1FTdjFjSm9TSjE1MkVFL0lBU1psMFpsQ0tmNzFTdDgwaWFQNzFBNjJ6?=
+ =?utf-8?B?S2d6U1NxYnZabnBycWJLZzFFckVWUkVCZElXcXdHbjNaYmM0Q1NqWGsxUmw1?=
+ =?utf-8?B?SklVSUlFd0ZNbXlBb1U5R01aRTlCK0tJZjVTc3ZPOE1iQWxSYThRWjJ0azhh?=
+ =?utf-8?B?Y1ZWSXFGNG0zMi9yMEJZblRxMDV4eVQ3KzNCcTFDUHBlaCt3aFJ4dE9JcFdZ?=
+ =?utf-8?B?S0J4SUl2aVNuN3VUS0NyOGZiblpaOVBDREllbFdadFNROTZFUytaNzRTZDJ6?=
+ =?utf-8?B?cDhCb1ArYnJSYTFGZ3BkR2d6WmUyYTJhNUpqZ0dMVU53dy9GQk91WnloTGFB?=
+ =?utf-8?B?QytNcFNLVllrc2xTekppUlhXaDRuRlNMZlZvdTVzQ1JCNU5qV0d1TVdSbFRB?=
+ =?utf-8?B?SEhGbkE3RENPTXYyMTVWdTNBZ1dGRU9QRVlyaUUzRzRraGJwaVJXWGMwZ3V6?=
+ =?utf-8?B?dDRPd1ZKeUN2YUt3dDlLaVZOZVdrMFdVbGZTRUczZmVFTUVVMWt3U0IyT2ph?=
+ =?utf-8?B?SWdaTEc0WmViMVI1akI0b1lHNXdySUFMUldHQVMxR2hDYklHcG83Sk90clhJ?=
+ =?utf-8?B?c3J5VjBNSEpKRjN0bUw0T1N2eDJkL0xJbU5zbDlwZ1BMSjNER2dPTXFuMzdD?=
+ =?utf-8?B?V3piVHZFTHRDK2JqU21jR3NiNjFnPT0=?=
+MIME-Version: 1.0
+
+------=_Part_2270_1103564419.1766156900068
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//Dtd HTML 4.01 Transitional//EN"  "http://www=
+.w3.org/TR/html4/loose.dtd"><html lang=3D"en">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head>
+<body style=3D"font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;=
+">
+<div style=3D"font-family: Verdana;font-size: 10.0pt;">
+ <span style=3D"font-size: 10.0pt;">Dear Harry,</span></div>
+ <div style=3D"font-family: Verdana;font-size: 10.0pt;"> <p>&nbsp;</p> <p>I
+ hope this email finds you well.</p> <p>&nbsp;</p> <p>I write to you today
+ in relation to your Subject Access Request (SAR) &nbsp;recently submitted
+ to the University.</p> <p>&nbsp;</p> <p>As outlined in the
+ acknowledgement letter sent to you on 02 December 2025, the date by
+ which we are required to respond to you is 30 December 2025. It is
+ with regret that I inform you there will be a slight delay in
+ providing you with the full set of documentation that you are
+ entitled to under the right of access, meaning we will be unable to
+ provide you with a response to your SAR by the 30 December deadline.
+ I outline the reason for the delay below.</p> <p>&nbsp;</p> <p>The
+ Information Governance Team has recently been experiencing
+ significant resource constraints due to increased statutory
+ workload, which in addition to the winter closure period (19/12/2025
+ - 05/01/2026), means we require more time to process the remainder
+ of your request.</p> <p>&nbsp;</p> <p>I recognise that this may not be
+ the response you anticipated, however please be assured I hope to
+ have the documentation that you are entitled to under the right of
+ access without undue delay and would like to apologise for any
+ inconvenience caused.</p> <p>&nbsp;</p> <p>Please be assured, we are
+ prioritising your request and will respond as soon as we are able to
+ when the University re-opens in January.</p> <p>&nbsp;</p> <p>Thank you
+ for your patience and understanding.&nbsp;</p> <p>&nbsp;</p> <p>Kind
+ regards,</p> <p>&nbsp;</p> <p>James</p> </div>
+ <div style=3D"font-family: Verdana;font-size: 10.0pt;">&nbsp;</div>
+ <div style=3D"font-family: Verdana;font-size: 10.0pt;">&nbsp;</div>
+ <div style=3D"font-family: Verdana;font-size: 10.0pt;">&nbsp;</div>
+ <div style=3D"font-family: Verdana;font-size: 10.0pt;">&nbsp;</div>
+ <div style=3D"font-family: Verdana;font-size: 10.0pt;">
+ <br>James Cook <br>Information Governance Officer <br>Governance
+ and Legal Services <br>E: james.cook@ntu.ac.uk <br>M: 0115 848
+ 4637 </div>
+<div style=3D"font-family: Arial;font-size: 10.0pt;">&nbsp;</div>
+ <div style=3D"font-family: Arial;font-size: 10.0pt;">
+  <strong> <span style=3D"color: rgb(0,0,0);font-size: 11.0pt;">Nottingham
+      Trent University</span></strong></div>
+ <div style=3D"font-family: Arial;font-size: 10.0pt;">
+  <span style=3D"color: rgb(0,0,0);">This email contains proprietary
+    confidential information some or all of which may be legally
+    privileged and/or subject to the provisions of privacy legislation.
+    It is intended solely for the addressee.</span></div>
+ <div style=3D"font-family: Arial;font-size: 10.0pt;">
+  <span style=3D"color: rgb(0,0,0);">If you are not the intended
+    recipient, an addressing or transmission error has misdirected this
+    e-mail; you must not use, disclose, copy, print or disseminate the
+    information contained within this e-mail. Please notify the author
+    immediately by replying to this email.</span></div>
+ <div style=3D"font-family: Arial;font-size: 10.0pt;">
+  <span style=3D"color: rgb(0,0,0);">Any views expressed in this email are
+    those of the individual sender, except where the sender specifically
+    states these to be the views of Nottingham Trent University.&nbsp;</spa=
+n></div>
+ <div style=3D"font-family: Arial;font-size: 10.0pt;">
+  <span style=3D"color: rgb(0,0,0);">This email has been scanned for all
+    viruses and all reasonable precautions have been taken to ensure
+    that no viruses are present. Nottingham Trent University cannot
+    accept responsibility for any loss or damage arising from the use of
+    this email or attachments.</span></div>
+</body>
+</html>
+
+------=_Part_2270_1103564419.1766156900068--

@@ -1,0 +1,25 @@
+{
+  "preferred_line_length": 90,
+  "soft_wrap": "editor_width",
+  "file_types": {
+    "Shell Script": [".latexmkrc", "*.conf", "*.answers"],
+  },
+  "lsp": {
+    "texlab": {
+      "settings": {
+        "texlab": {
+          "latexindent": {
+            "modifyLineBreaks": true,
+          },
+          "build": {
+            "onSave": false,
+          },
+        },
+        "forwardSearch": {
+          "executable": "evince-synctex",
+          "args": ["-f", "%l", "%p", "\"texlab -i %f -l %l\""],
+        },
+      },
+    },
+  },
+}
