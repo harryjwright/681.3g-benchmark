@@ -181,6 +181,9 @@ This case has been flagged by multiple regulatory bodies.
 ## 📄 License
 This work is licensed under a **Creative Commons Attribution 4.0 International License**. You are free to share and adapt the material, provided appropriate credit is given.
 
+### Third-Party Content
+This repository contains a collection of evidence, including emails, reports, and documents produced by Nottingham Trent University, Light Science Technologies Holdings PLC, and other third parties. These items are included for evidentiary purposes under Fair Use and remain the property of their respective owners.
+
 ---
 
 ## 🎭 A Note on Tone
