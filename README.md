@@ -27,10 +27,10 @@ In the presence of students, this practice constitutes **institutional gaslighti
 
 I have identified **four specific instances** where the file **Modification Date** significantly exceeds the **Creation/Transmission Date** thanks to a GitHub icon I placed in my signature. These anomalies confirm that documents were edited or injected *after* the alleged event occurred, yet presented as contemporaneous evidence.
 
-*   **Example I:** S. Godby 5 October 2025
-*   **Example II:** Conduct Outcome email forged with retrofitted metadata (Ref: 10 Feb 2026).
-*   **Example III:** Module Transfer email identified as backdated forgery (Ref: 11 Feb 2026).
-*   **Example IV:** A Subject Access Request is forged (Ref: 2812841).
+*   **Example I:** [S. Godby 5 October 2025](<./CHRONO/Re_ Formal Complaint.eml>)
+*   **Example II:** [Conduct Outcome email forged with retrofitted metadata (Ref: 10 Feb 2026)](<./CHRONO/RE_ Appeal Outcome.eml>).
+*   **Example III:** [Module Transfer email identified as backdated forgery (Ref: 11 Feb 2026)](<./CHRONO/Re_ Academic Progession and Module Transfer Request - Harry Wright - N0605150.eml>).
+*   **Example IV:** [A Subject Access Request is forged (Ref: 2812841)](<./CHRONO/Subject access request (ref_ 2812841).eml>).
 
 > **Conclusion:** The University is not merely mismanaging data; they are actively curating a **Synthetic Narrative** to bypass statutory deadlines and obscure the timeline of the **681.3g Benchmark** liquidation.
 
@@ -40,8 +40,11 @@ I have identified **four specific instances** where the file **Modification Date
 
 The following timeline documents the progression of the dispute between Harry Wright and Nottingham Trent University (NTU), including the integration of Light Science Technologies Holdings PLC (LST.L).
 
-- **2022-2024 The Paper Lantern**
-  I start working on a proprietary hydroponic system and later face homelessness and food instability but eventually find housing.
+- **9 August 2025 The Paper Lantern**
+  [I start working on a proprietary hydroponics system](<./CHRONO/genesis_block.jpg>).
+
+- **2022-2024 The Motivation**
+  I later face homelessness and food instability but eventually find housing.
 
 - **14 November 2024**
   V. Sharma [confirms my right to Intellectual Property](<./CHRONO/RE_ Submissions property rights.eml>) as an MSc student in line with Section 2.3 of the University's [IP Policy](<./CHRONO/tc1617-intellectual-property-policy-for-students.pdf>).
@@ -57,9 +60,6 @@ The following timeline documents the progression of the dispute between Harry Wr
      
 - **19 June 2025**
   I discover [manual tampering of my bicycle tyre](<./CHRONO/Card access history report.xls>) on the Brackenhurst Campus leading to a near-miss injury.
-
-- **24 September 2025 - LST Sitemap**
-  LST.L starts aggressively updating their [sitemap](<./CHRONO/XML Sitemap.html>) and [product portfolio](<./CHRONO/Screenshot From 2026-02-26 23-19-10.png>) to match my research.
 
 - **5 October 2025 — The Narrative Seed**
   [The missing email from S. Godby](<./CHRONO/Re_ Formal Complaint.eml>) appears in my inbox regarding legacy conduct, anchoring a false history.
@@ -80,13 +80,19 @@ The following timeline documents the progression of the dispute between Harry Wr
   Generic [news report RE LST.L and NTU partnership](<UK University to install vertical farming installation at research centre.pdf>).
 
 - **31 October 2025**
-  Active surveillance and psychological stress-testing initiated by administrative staff in response to [filing a welfare request](<./CHRONOConfirmation of Support and Wellbeing Form submission.eml>).
+  Active surveillance and psychological stress-testing initiated by administrative staff in response to [filing a welfare request](<./CHRONO/Confirmation of Support and Wellbeing Form submission.eml>).
+
+- **3 November 2025**
+  [Resource starvation begins](<./CHRONO/Sulphuric Acid.eml>) by S. Lemon's (source of false allegations) department.
 
 - **4 November 2025**
   **Semantic Linkage**: [Ronan-Brown](<./CHRONO/Campbell Lab - People.pdf>) explicitly mentions "Lights" in a context linked to LST.L.
 
 - **6 November 2025**
-  Fabrication of a trivial conduct case to justify total administrative exclusion.
+  Fabrication of a trivial conduct case to justify [total administrative exclusion](<./CHRONO/2025_11_06 Notice of Restrictions Letter.pdf>).
+
+- **16 November 2025 - LST Sitemap**
+  LST.L starts aggressively updating their [sitemap](<./CHRONO/XML Sitemap.html>) and [product portfolio](<./CHRONO/Screenshot From 2026-02-26 23-19-10.png>) to match my research.
 
 - **8 December 2025**
   [Anthony Jordan, an IPO Programme Manager authors my conduct report](<./CHRONO/anthony_jordan_profile.png>). [Jane Maddock, a FCILEX contracts specialist authors multiple disciplinary artifacts](<./CHRONO/jane_maddock_profile.png>).
@@ -98,7 +104,7 @@ The following timeline documents the progression of the dispute between Harry Wr
   **The Dragnet**: M. Oxenbury actively solicits historical "incident" reports targeting the Subject.
 
 - **14 November 2025**
-  Placeholder email regarding "Reserved Parking" (Administrative filler). Issued despite the researcher not owning a vehicle, indicating generic template usage to pad the correspondence log.
+  Placeholder email regarding ["Reserved Parking"](<./CHRONO/Reserved parking.eml>) (Administrative filler). Issued despite the researcher not owning a vehicle, indicating generic template usage to pad the correspondence log.
 
 - **18 November 2025**
   [Placeholder email regarding a talk/lecture that was never delivered](<./CHRONO/dempster.eml>). Sent regarding an event that never occurred, serving as administrative noise while Physical Construction began on the LST Project site, confirming the active deployment of the 681.3g research assets.
