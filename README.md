@@ -40,7 +40,7 @@ I have identified **four specific instances** where the file **Modification Date
 
 The following timeline documents the progression of the dispute between Harry Wright and Nottingham Trent University (NTU), including the integration of Light Science Technologies Holdings PLC (LST.L).
 
-- **9 August 2025 The Paper Lantern**
+- **9 August 2022 The Paper Lantern**
   [I start working on a proprietary hydroponics system](<./CHRONO/genesis_block.jpg>).
 
 - **2022-2024 The Motivation**
